@@ -18,7 +18,7 @@ Smooth Monokai Pro-inspired theme for Discord. <br>
 
 This theme was designed to be minimal - such that my IDE and Discord looked the same. But found others wanted to use it, so it's public. :) <br>
 
-This theme could be improved a lot, so feel free to play around!
+This theme could be improved a lot (e.g. JS tiling,) so feel free to play around!
 
 <div align=left><h2>Installation</h2>
 <ol>
