@@ -1,2 +1,4 @@
-# monokai-pro-betterdiscord
-CSS designed for BetterDiscord
+# Monokai Pro Theme
+Theme designed for BetterDiscord
+
+
