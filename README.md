@@ -10,8 +10,10 @@
 
 Smooth Monokai Pro-inspired theme for Discord. <br>
 
+<div align=left><h2></h2>
 
-![image](https://github.com/user-attachments/assets/098ad7f6-0314-408e-a2b8-f3d0af09833d)
+![image](https://github.com/user-attachments/assets/3095a1d7-b531-4bdd-9a3b-6956f895b3df)
+
 <div align=left><h2>Background</h2>
 
 This theme was designed to be minimal - such that my IDE and Discord looked the same. But found others wanted to use it, so it's public. :) <br>
@@ -33,7 +35,7 @@ This theme could be improved a lot, so feel free to play around!
 This theme was inspired by:
 
 <ul>
-  <li> <a href=https://betterdiscord.app/> Zelk by schnensch0 </li>
+  <li> <a href=https://github.com/schnensch0/zelk> Zelk by schnensch0 </li>
   <li> <a href=https://github.com/refact0r/midnight-discord> Midnight by refact0r </li>
   <li> <a href=https://monokai.pro/vscode> Monokai Pro</li>
 </ul>
