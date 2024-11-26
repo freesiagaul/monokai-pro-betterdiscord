@@ -22,7 +22,7 @@ This theme could be improved a lot, so feel free to play around!
 <ol>
  <li>Ensure you have BetterDiscord <a href=https://betterdiscord.app/>downloaded </li>
  <li>Download monokai_theme.css </li>
- <li>Add the file to your theme folder (should be in Discord settings)</li>
+ <li>Add the file to your theme folder (should be in Discord settings) OR copy+paste into [custom css] in [settings]</li>
   
 </ol>
 
