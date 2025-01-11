@@ -38,6 +38,7 @@ This theme was inspired by:
   <li> <a href=https://github.com/schnensch0/zelk> Zelk by schnensch0 </li>
   <li> <a href=https://github.com/refact0r/midnight-discord> Midnight by refact0r </li>
   <li> <a href=https://monokai.pro/vscode> Monokai Pro</li>
+  <li> Dylan, and his epic Nix setup ;) </li>
 </ul>
 
 
