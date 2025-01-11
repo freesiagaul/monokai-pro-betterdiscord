@@ -34,7 +34,7 @@ This theme could be improved a lot, so feel free to play around!
     <li>Add the file to the theme folder (under Themes in Vesktop settings) OR copy and paste into QuickCSS (Themes in settings)</li>
 </ol>
 <div align=left><h4>Vesktop with Home-Manager</h4>
-If you manage your system via <a href=https://nix-community.github.io/home-manager/index.xhtml#preface/>Home-Manager</a> either via the NixOS module or as standalone you can also use my setup to install it declaratively.
+If you manage your system via <a href=https://nix-community.github.io/home-manager/index.xhtml#preface/>Home-Manager</a> either via the NixOS module or as standalone you can also use my (TheNeekOfficial) setup to install it declaratively.
     
 ```nix
 { pkgs, lib, ... }:
