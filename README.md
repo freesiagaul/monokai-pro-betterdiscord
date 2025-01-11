@@ -33,7 +33,7 @@ This theme could be improved a lot, so feel free to play around!
     <li>Download monokai_theme.css </li>
     <li>Add the file to the theme folder (under Themes in Vesktop settings) OR copy and paste into QuickCSS (Themes in settings)</li>
 </ol>
-<div align=left><h4>Home-Manager</h4>
+<div align=left><h4>Vesktop with Home-Manager</h4>
 If you manage your system via <a href=https://nix-community.github.io/home-manager/index.xhtml#preface/>Home-Manager</a> either via the NixOS module or as standalone you can also use my setup to install it declaratively.
     
 ```nix
@@ -43,8 +43,8 @@ let
   monokai-pro-css = pkgs.fetchFromGitHub {
     owner = "freesiagaul";
     repo = "monokai-pro-betterdiscord";
-    rev = "5da5b385d1d6947f90ed86e9827e6a1b51292d28"; # If updated update this too
-    sha256 = "vuPrwVc3zlwGy/PpdKyy/qp+ntv1qmCVhzKjs4FhiGE="; # If updated get hash w/ lib.fakeSha256a;
+    rev = "5da5b385d1d6947f90ed86e9827e6a1b51292d28"; # Current as of ~10th of January
+    sha256 = "vuPrwVc3zlwGy/PpdKyy/qp+ntv1qmCVhzKjs4FhiGE="; # Current as of ~10th of January
   } + "/monokai_theme.css";
 in
 {
