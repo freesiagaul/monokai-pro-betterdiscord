@@ -21,13 +21,43 @@ This theme was designed to be minimal - such that my IDE and Discord looked the 
 This theme could be improved a lot, so feel free to play around!
 
 <div align=left><h2>Installation</h2>
+<div align=left><h3>BetterDiscord</h3>
 <ol>
  <li>Ensure you have BetterDiscord <a href=https://betterdiscord.app/>downloaded </li>
  <li>Download monokai_theme.css </li>
  <li>Add the file to your theme folder (should be in Discord settings) OR copy+paste into [custom css] in [settings]</li>
-  
 </ol>
+<div align=left><h3>Vesktop</h3>
+<ol>
+    <li>Ensure you have Vesktop <a href=https://github.com/Vencord/Vesktop/>installed </li>
+    <li>Download monokai_theme.css </li>
+    <li>Add the file to the theme folder (under Themes in Vesktop settings) OR copy and paste into QuickCSS (Themes in settings)</li>
+</ol>
+<div align=left><h4>Home-Manager</h4>
+If you manage your system via <a href=https://nix-community.github.io/home-manager/index.xhtml#preface/>Home-Manager</a> either via the NixOS module or as standalone you can also use my setup to install it declaratively.
+    
+```nix
+{ pkgs, lib, ... }:
+let
+  # Freesia's discord css
+  monokai-pro-css = pkgs.fetchFromGitHub {
+    owner = "freesiagaul";
+    repo = "monokai-pro-betterdiscord";
+    rev = "5da5b385d1d6947f90ed86e9827e6a1b51292d28"; # If updated update this too
+    sha256 = "vuPrwVc3zlwGy/PpdKyy/qp+ntv1qmCVhzKjs4FhiGE="; # If updated get hash w/ lib.fakeSha256a;
+  } + "/monokai_theme.css";
+in
+{
+  home.packages = with pkgs; [ 
+    vesktop
+  ];
 
+  home.file.".config/vesktop/themes/monokai-pro.css" = {
+    source = monokai-pro-css;
+  };
+}
+```
+Just add this to your home.nix or in your flake.nix dependent on how you've set up home-manager.
 
 
 <div align=left><h2>Credits</h2>
