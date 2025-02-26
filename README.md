@@ -43,8 +43,8 @@ let
   monokai-pro-css = pkgs.fetchFromGitHub {
     owner = "freesiagaul";
     repo = "monokai-pro-betterdiscord";
-    rev = "1ba902156d73e1794617e37b8dce4bb96bfe62c1"; # Current as of ~26th of February
-    sha256 = "gffDoJHb/WWwi9s4gHQH/ASmbOId6AlMwU3ZF+Fz1+I="; # Current as of ~26th of February
+    rev = "fb4c83348e4578e8ee9e1334b5b335b11f62a7e6"; # Current as of ~26th of February
+    sha256 = "JUpOCSxJaq4CHCnyAYhsBNsNiz3OxYCerhS7b78/3w4="; # Current as of ~26th of February
   } + "/monokai.theme.css";
 in
 {
